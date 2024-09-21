@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+               
+                <img src="image/kkkk.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Protofolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+
+             <div class="header-text">
+            
+            <p>Web Devloper</p>
+            <h1>Hi, I'm<span> Kriti Gupta</span> <br>from India </h1>
+        </div>
+    </div>
+    <div id="image"></div>
+  
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="image/kit.jpg"  style=" height: 70%; width:100% ;"></div>
+                <div class="about-col-2">
+
+                <h1 class="sub-title">About Me</h1>
+                <p stle="font-size: 1.25rem;">I am a passionate web developer with a strong background in building dynamic and user-friendly websites. With experience in front-end and back-end technologies, I focus on creating efficient and visually appealing solutions tailored to meet client needs. My expertise lies in developing responsive websites that ensure a seamless user experience across devices. I continuously stay updated with the latest trends in web development to deliver modern and high-performing websites.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick= "opentab('skills')">Skills</p>
+                <p class="tab-links" onclick= "opentab('experience')">Experience</p>
+
+            </div>
+            <div class="tab-contents active-tab" id="education">
+                <ul>
+                    <li><span><b>10th-2016</b> </span><br>70.52%</li><br>
+                    <li><span><b>12th- 2018</b></span><br>Science-60%</li><br>
+                    <li><span><b>Gradution:(2018-2021)</b></span><br>BCA-71.92%</li><br>
+                    <li><span><b> Post-Gradution:(2023-2025)</b></span><br>Currently pursuing Master of Computer Applications (MCA) at [Techno India University].</li><br>
+                
+            
+                </ul>
+            </div>
+            <div class="tab-contents" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Design web/App interfaces</li><br>
+                    <li><span>Web Devlopment</span><br>Html,css,javascript</li><br>
+                    <li><span>Back-End Devlopment</span><br>Java,c++,MySql</li>
+                </ul>
+                
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Responsive Portfolio Website</span><br>Developed a personal portfolio website using HTML, CSS, and JavaScript, showcasing design skills and responsive layout techniques.</li><br>
+                    <li><span>GitHub Projects</span><br>Managed a GitHub repository featuring multiple web development projects, including front-end and back-end coding examples.</li><br>
+                    <li><span>Web Development Skills</span><br>Proficient in HTML5, CSS3, JavaScript, and basic PHP. Familiar with frameworks like  React.js.
+
+                    </li>
+                </ul>
+                
+
+               
+            </div>
+            
+
+        </div>
+    </div>
+
+<!-----------services----->
+</div>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-thin fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I provide custom web design solutions focused on creating visually appealing, responsive, and user-friendly websites. My services include custom designs, responsive layouts for all devices, UI/UX optimization, and SEO-friendly structures. I aim to blend creativity and functionality to deliver impactful designs that enhance your brand and improve user engagement.</p>
+               <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-thin fa-crop-simple"></i>
+                <h2>App Design</h2>
+                <p>I am a passionate fresher in app design with a strong foundation in design principles and tools. Eager to learn and grow, I focus on creating user-friendly and visually appealing applications. My goal is to combine creativity with functionality to enhance user experiences. I am excited to take on new challenges and contribute to innovative projects.</p>p
+            </div>
+            <div>
+                <i class="fa-regular fa-face-awesome"></i>
+                <h2>UI/UX Design</h2>
+                <p> I specialize in creating visually engaging and user-friendly interfaces that enhance user experience. My approach involves designing clean, modern layouts that are both aesthetically pleasing and functional. I focus on ensuring intuitive navigation and alignment with brand identity to deliver a seamless and enjoyable user experience.</p>
+               <a href="#">learn more</a>
+        </div>
+
+    </div>
+</div>
+<!--------------protofolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+        <div class="work">
+            <img src="image/farm.jpg">
+            <div class="layer">
+                <h1>FarmMitra</h1>
+                <p>FarmMitra connect farmers directly with consumer, allowing them to pre-book crops,which gives farmer guranted customer before production,ensuring , financial security.</p>
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/edu.jpg">
+            <div class="layer">
+                <h1>Education, Skill development and Employment </h1>
+                <p>A comprehensive platform that offers educational resources, skill development programs, and job placement assistance, empowering individuals to enhance their knowledge, acquire new skills, and successfully navigate the job market.</p>
+
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/library.jpeg">
+            <div class="layer">
+                <h1>library Management</h1>
+                <p>A library management website is an online platform that facilitates the efficient organization, tracking, and management of library resources, including books, journals, and digital media. It enables users to search for materials, check availability, manage loans, and access various library services, enhancing the overall user experience and operational efficiency of the library..</p>
+
+            </div>
+        </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---------------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> kritigupta512@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 8676973533</p>
+                <div class="social-icon">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                
+            
+            </div>
+            <a href="image/LATESTRESUME.pdf"  download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet"> 
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit"  class ="btn btn2">Submit</button>
+        
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copright @kevin</p>
+
+    </div>
+</div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+var sidemenu=document.getElementById("sidemenu");
+ function openmenu(){
+    sidemenu.style.right="0"; 
+ }
+ function  closemenu(){
+    sidemenu.style.right="-200px";
+  }
+  
+</script>
+  <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwSqi3PcFigLsvgJ6thqyZFwGw33tSfbfpEexwKpzWtBVmlNL0C_R9YSTGbFVjHyGUy/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</script>
+
+</body>
+</html>
+</body>
+</html>
